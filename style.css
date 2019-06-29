@@ -1,0 +1,298 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url(<link href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">);
+/*text*/
+body {
+  background-image: url("photos/white-wood-desk-1153334.jpg");
+  font-family: "Indie Flower", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+  background-size: cover;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{}
+/* menu*/
+.topnav {
+  overflow: hidden;
+  background-color: #a7a7a7;
+  position: fixed;
+  width: 100%;
+  margin: 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  box-shadow: 3px;
+}
+
+.topnav a:hover {
+  background-image: linear-gradient(to right, green, darkblue);
+  color: black;
+  box-shadow: 5px 10px #888888;
+  transition: 0.9s;
+  border-radius: 100px;
+}
+
+.topnav a:active {
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav a:active::before,
+.topnav a:active::after{
+  background-color: #4CAF50;
+  color: white;
+}
+.topnav > li {
+  display: block;
+}
+/*text*/
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  color: #ff0033;
+}
+p {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  color: firebrick;
+  text-align:? center;
+} 
+.highlight {
+  color: coral;
+}
+.underline{
+  color: crimson;
+}
+li{
+  color: #c32121;
+  display: block;
+}
+.foto{
+ text-align: center;
+}
+li a:hover{
+ display:inline;   
+  }
+.topnav .sub-menu {
+  display: flex;
+}
+img{
+  margin-top: 10px;
+  margin-right: 8px;
+  border-radius: 10%;
+/*  box-shadow: 10px 15px #dd1212;*/
+}
+.alt{
+  color: #76ff00;
+}
+.contacts{
+ text-decoration: none;
+}
+/* novini*/
+ .novini ::first-line{
+ background-color: #958c8c;
+}
+.novini{
+  color: black;
+}
+:hover{
+  color: #102b86;
+}
+/* contacts*/
+.contacts{
+  color: navy;
+}
+strong{
+ color: black;
+}
+h3{
+  color: gray
+}
+.seredniybal{
+  color: #4a2222
+}
+
+.title{
+  top:50px
+}
+}
+.img {
+  border-bottom: solid 1px red;
+  width: 256px;
+  box-shadow: 0px 0px red;
+}
+span {
+/*  display: block; */
+  left: 50px;
+}
+/*tovar*/
+figcaption {
+  text-align: center;
+}
+.products{
+  position: relative;
+  width: 100%;
+  margin: 100px auto;
+  padding: 0;
+
+}
+
+
+
+.products figure {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 230px;
+  margin: 20px 5px;
+  padding: 10px;
+  z-index: 0;
+  left: 25px;
+  border-radius: 5px;
+}
+.products img {
+  display:block;
+  height: 60%;
+  margin: 10px auto;
+}
+
+
+.products figure:hover {
+  box-shadow: 2px 2px 5px #999999;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right, yellow, red);
+  transition: 0.8s;
+  display: inline-block;
+
+}
+.products figcaption {
+  position:absolute;
+  top: 190px;
+  left:53%;
+  width: 280px;
+  height: 35px;
+  margin: 0px;
+  padding: 5px 10px 0;
+  text-align: center;
+  transform: translate(-50% );
+  color:#e2bcbc;
+  /*  border-top:2px solid #6d4d4d;*/
+  background-color:#a24545;
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.products figcaption:hover {
+
+  text-shadow: 2px 2px 5px #999999;
+  transition: .8s;
+    font-weight: 700;
+}
+
+.products a:link {
+  text-decoration: none;
+}
+.products a:before,
+.products a:after {
+content: "";
+position: absolute;
+height: 2px;
+top: auto;
+right: 50%;
+bottom: 50px;
+left: 50%;
+background: yellow;
+transition: .8s;
+  z-index: 2;
+}
+
+
+.products a:hover:before {left: 0;}
+.products a:hover:after {right: 0;}  
+figure{
+  align-content: center;
+}  
+div.button{
+  border: 1px solid red;
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  margin-left: 85%;
+  background-image: linear-gradient(to bottom right, red, orange);
+  border-radius: 10px;
+  
+}
+a.knopka{
+  top: 30px;
+  text-decoration: none;
+}
+div.buttonnazad{
+  border: 1px solid red;
+  width: 100px;
+  text-align: center;
+  height: 40px;
+  margin-left: 85%;
+  background-image: linear-gradient(to bottom right, red, orange);
+  border-radius: 10px;
+  bottom: 300px;
+}
+.bottom-site{
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: black;
+  color:white;
+  width: auto;
+  height: 260px;
+  overflow: auto;
+  flex-direction: row;
+
+  
+}
+a{
+  text-decoration: none;
+}
+div .bohdan-inst{
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+.vse{
+ padding-top: 20%;
+}
+.photo_facebook{
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: white;
+}
+.bohdan_faceb{
+
+  float: inherit;
+
+  }
+.inst_photo{
+  margin-bottom: 10px;
+  clear: both;
+}
+.yayaya{
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: white; 
+}
+.my_project1{
+/*margin-right: 400px;*/
+  margin-bottom: 10px;
+}
+.bottom-site > div {
+  display: flex;
+ 
+}
